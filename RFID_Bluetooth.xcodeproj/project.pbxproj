@@ -8,18 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		6082F804256CB973008A482D /* RFID_BluetoothApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6082F803256CB973008A482D /* RFID_BluetoothApp.swift */; };
-		6082F806256CB973008A482D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6082F805256CB973008A482D /* ContentView.swift */; };
+		6082F806256CB973008A482D /* BLEListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6082F805256CB973008A482D /* BLEListView.swift */; };
 		6082F808256CB975008A482D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6082F807256CB975008A482D /* Assets.xcassets */; };
 		6082F80B256CB975008A482D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6082F80A256CB975008A482D /* Preview Assets.xcassets */; };
+		6082F819256F624B008A482D /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6082F818256F624B008A482D /* BLEManager.swift */; };
+		6082F81D256F92C6008A482D /* ViewModifierUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6082F81C256F92C6008A482D /* ViewModifierUI.swift */; };
+		6082F83825720A3A008A482D /* ConnectBTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6082F83725720A3A008A482D /* ConnectBTView.swift */; };
+		6082F83F25736DCC008A482D /* Peripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6082F83E25736DCC008A482D /* Peripheral.swift */; };
+		6082F8472573A12C008A482D /* BTMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6082F8462573A12C008A482D /* BTMenuView.swift */; };
+		6082F84D2573A4D8008A482D /* RFID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6082F84C2573A4D8008A482D /* RFID.swift */; };
+		6082F85E2573F314008A482D /* RFIDLlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6082F85D2573F314008A482D /* RFIDLlistView.swift */; };
+		6082F8642574A98D008A482D /* Name_RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6082F8632574A98D008A482D /* Name_RegistrationView.swift */; };
+		6082F8672574A9D9008A482D /* Consumer_RechargeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6082F8662574A9D9008A482D /* Consumer_RechargeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6082F800256CB973008A482D /* RFID_Bluetooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFID_Bluetooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6082F803256CB973008A482D /* RFID_BluetoothApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFID_BluetoothApp.swift; sourceTree = "<group>"; };
-		6082F805256CB973008A482D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6082F805256CB973008A482D /* BLEListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEListView.swift; sourceTree = "<group>"; };
 		6082F807256CB975008A482D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6082F80A256CB975008A482D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6082F80C256CB975008A482D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6082F818256F624B008A482D /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		6082F81C256F92C6008A482D /* ViewModifierUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierUI.swift; sourceTree = "<group>"; };
+		6082F83725720A3A008A482D /* ConnectBTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectBTView.swift; sourceTree = "<group>"; };
+		6082F83E25736DCC008A482D /* Peripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peripheral.swift; sourceTree = "<group>"; };
+		6082F8462573A12C008A482D /* BTMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTMenuView.swift; sourceTree = "<group>"; };
+		6082F84C2573A4D8008A482D /* RFID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFID.swift; sourceTree = "<group>"; };
+		6082F85D2573F314008A482D /* RFIDLlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFIDLlistView.swift; sourceTree = "<group>"; };
+		6082F8632574A98D008A482D /* Name_RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Name_RegistrationView.swift; sourceTree = "<group>"; };
+		6082F8662574A9D9008A482D /* Consumer_RechargeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consumer_RechargeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +71,15 @@
 			isa = PBXGroup;
 			children = (
 				6082F803256CB973008A482D /* RFID_BluetoothApp.swift */,
-				6082F805256CB973008A482D /* ContentView.swift */,
+				6082F8522573A57B008A482D /* Model */,
+				6082F818256F624B008A482D /* BLEManager.swift */,
+				6082F805256CB973008A482D /* BLEListView.swift */,
+				6082F83725720A3A008A482D /* ConnectBTView.swift */,
+				6082F8462573A12C008A482D /* BTMenuView.swift */,
+				6082F8632574A98D008A482D /* Name_RegistrationView.swift */,
+				6082F8662574A9D9008A482D /* Consumer_RechargeView.swift */,
+				6082F85D2573F314008A482D /* RFIDLlistView.swift */,
+				6082F81C256F92C6008A482D /* ViewModifierUI.swift */,
 				6082F807256CB975008A482D /* Assets.xcassets */,
 				6082F80C256CB975008A482D /* Info.plist */,
 				6082F809256CB975008A482D /* Preview Content */,
@@ -67,6 +93,15 @@
 				6082F80A256CB975008A482D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6082F8522573A57B008A482D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6082F83E25736DCC008A482D /* Peripheral.swift */,
+				6082F84C2573A4D8008A482D /* RFID.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +173,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6082F806256CB973008A482D /* ContentView.swift in Sources */,
+				6082F8642574A98D008A482D /* Name_RegistrationView.swift in Sources */,
+				6082F806256CB973008A482D /* BLEListView.swift in Sources */,
+				6082F83F25736DCC008A482D /* Peripheral.swift in Sources */,
+				6082F84D2573A4D8008A482D /* RFID.swift in Sources */,
+				6082F85E2573F314008A482D /* RFIDLlistView.swift in Sources */,
+				6082F819256F624B008A482D /* BLEManager.swift in Sources */,
+				6082F83825720A3A008A482D /* ConnectBTView.swift in Sources */,
+				6082F81D256F92C6008A482D /* ViewModifierUI.swift in Sources */,
+				6082F8472573A12C008A482D /* BTMenuView.swift in Sources */,
 				6082F804256CB973008A482D /* RFID_BluetoothApp.swift in Sources */,
+				6082F8672574A9D9008A482D /* Consumer_RechargeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

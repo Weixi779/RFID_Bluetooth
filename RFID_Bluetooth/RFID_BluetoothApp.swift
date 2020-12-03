@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct RFID_BluetoothApp: App {
+    @StateObject var bleManager = BLEManager()
+    @StateObject var RFIDItems = RFIDS()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BLEListView(bleManager: bleManager, RFIDItems: RFIDItems)
         }
     }
 }
